@@ -11,7 +11,7 @@ function createContact() {
 
   pNum.textContent = '📞 123 456 7890';
   addy.textContent = '🏠 Hollywood Boulevard 42, Los Angeles, USA';
-  locationImg.src = '../img/restaurant-location.png';
+  locationImg.src = 'img/restaurant-location.png';
 
   contact.appendChild(pNum);
   contact.appendChild(addy);
