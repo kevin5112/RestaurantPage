@@ -1,12 +1,20 @@
 export default function footer() {
   let footer = document.createElement('div');
   let copyright = document.createElement('p');
-  let copyrightIcon = document.createElement('i');
 
   copyright.innerHTML = 'Copyright &copy 2024 kevin5112';
   footer.classList.add('footer');
   footer.appendChild(copyright);
-  footer.appendChild(copyrightIcon);
+
+  const githubLink = document.createElement('a');
+  githubLink.href = 'https://github.com/kevin5112';
+
+  const githubIcon = document.createElement('i');
+  githubIcon.classList.add('fab');
+  githubIcon.classList.add('fa-github');
+
+  githubLink.appendChild(githubIcon);
+  footer.appendChild(githubLink);
 
   return footer;
 }
