@@ -5,20 +5,10 @@ module.exports = {
   entry: {
     app: './src/index.js',
   },
-  mode: 'development',
-  devtool: 'inline-source-map',
-  devServer: {
-    static: './dist',
-  },
-  plugins: [
-    new HtmlWebpackPlugin({
-      template: './src/index.html',
-    }),
-  ],
+  mode: 'production',
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    clean: true,
   },
   module: {
     rules: [

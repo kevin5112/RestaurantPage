@@ -74,7 +74,8 @@ function createMenuItem(name, description) {
 
   pizzaName.innerHTML = name;
   pizzaDescription.innerHTML = description;
-  pizzaImage.src = '../img/' + name.toLowerCase() + '.png';
+  pizzaImage.src = `img/${name.toLowerCase()}.png`;
+  pizzaImage.alt = `${name}`;
 
   pizzaItem.appendChild(pizzaImage);
   pizzaItem.appendChild(pizzaName);

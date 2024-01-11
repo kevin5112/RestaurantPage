@@ -1,7 +1,6 @@
 import footer from './footer.js';
 import loadHomepage from './homepage.js';
 import navBar from './navbar.js';
-import './style.css';
 
 function createHeader() {
   let header = document.createElement('div');
