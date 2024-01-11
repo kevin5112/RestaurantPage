@@ -2,7 +2,7 @@ export default function footer() {
   let footer = document.createElement('div');
   let copyright = document.createElement('p');
 
-  copyright.innerHTML = 'Copyright &copy 2024 kevin5112';
+  copyright.innerHTML = 'Copyright &copy 2024 kevin5112 ';
   footer.classList.add('footer');
   footer.appendChild(copyright);
 
