@@ -25,13 +25,6 @@ function createFooter() {
   return footer();
 }
 
-function renderPage() {
-  // let parentNode = page.parentNode;
-  // Array.from(parentNode.children).forEach((child) => {
-  //   child.classList.remove('active');
-  // });
-}
-
 export default function initWebsite() {
   let content = document.getElementById('content');
 
