@@ -10,7 +10,8 @@ function createHomepage() {
   description2.textContent = 'Made with passion since 1609';
   let chefImg = document.createElement('img');
   chefImg.classList.add('chef-img');
-  chefImg.src = '../img/ramsay.jpeg';
+  chefImg.src = 'img/ramsay.jpeg';
+  chefImg.alt = 'Chef';
   let slogan = document.createElement('p');
   slogan.textContent = 'Order online or visit us!';
 
